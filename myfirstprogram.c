@@ -3,7 +3,7 @@
 
 int main(void) {
     printf("Welcome to my little program!\n");
-    printf("Press Any Key to Start\n");
+    printf("Press the Enter Key to Start\n");
     getchar();
 
     const char* months[] = {"January", "February", "March", "April", 
