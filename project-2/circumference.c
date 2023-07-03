@@ -24,5 +24,5 @@ float calc_circ(float userInput)
     
     float circumference = 2 * pi * userInput;
 
-    return printf("The Circumference of the cirlce is: %f\n", circumference);
+    return printf("The Circumference of the cirlce is: %.2f\n", circumference);
 }
