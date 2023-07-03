@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 
 float calc_circ(float userInput);
 int main(void)
@@ -16,6 +17,8 @@ int main(void)
 
     // Calculate circumference of the circle
     calc_circ(radius);
+
+    system("pause");
 }
 
 float calc_circ(float userInput)
